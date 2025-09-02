@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(img/sa.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+   background-repeat: no-repeat;
+}
+
+#template{
+    height: 4000px;
+    width: 960px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 60px;
+    
+    
+}
+
+.zelda{
+    width: 180px;
+    margin-left: 380px;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 50%;
+    
+}
+
+.text2{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.prices{
+    padding-top: 230px;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.shot{
+    text-align: center;
+    padding-left: 140px;
+}
+.pic1{
+    padding-top: 40px;
+   padding-left: 100px;
+}
+
+.bust{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.sketch{
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.full{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.tos{
+    text-align: center;
+    padding-top: 150px;
+}
+
+footer{ 
+  display: flex;
+  gap: 54px;
+  padding-top: 80px;
+  padding-left: 390px;
+  text-align: center;
+  opacity: 0;
+  animation: to-bottom 1s ease forwards;
+  
+   
+}
+
+@keyframes to-bottom{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+
+    }
+  100%{
+    opacity: 1;
+    transform: translateY(0) ;
+  }
+
+}
